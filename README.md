@@ -17,6 +17,10 @@ cp .env.example .env                # 윈도우: copy .env.example .env
 # .env 파일을 열어 실제 API 키를 입력
 
 # 디렉토리 구조
+multimodal-rag
+├─ notebooks/
+├─ practice/
+└─ src/
 
 # 토큰 사용량 측정
 텍스트 요약 토큰 사용량 (추정)
