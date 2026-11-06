@@ -32,3 +32,24 @@ multimodal-rag
 
 ※ 실제 비용 = 토큰 수 x 단가. 단가는 OpenAI 공식 가격 페이지에서 확인하세요.
 ※ 이미지 토큰은 해상도에 따라 달라지므로 위 수치에 포함되지 않았습니다.
+
+# 텍스트 전용 RAG와 멀티모달 RAG 차이
+![alt text](image.png)
+
+# Ollama를 이용한 번역 체인 통합
+Ollama 번역 답변
+---
+질문 1: What are three things to watch out for during the autumn seasonal transition?
+답변 1: 가을 계절 전환 시에 주의해야 할 3가지는?
+---
+질문 2: How can I prevent catching a cold when the weather changes in the fall?
+답변 2: 여름이 가면 바람이 쥬는데, 어떻게 하면 감기가 잡히지 않게 할 수 있나요?
+---
+질문 3: What should I eat to keep my immune system strong during the change of seasons?
+답변 3: 계절이 바뀔 때 내 면역 체계를 튼튼하게 유지하기 위해 무엇을 먹어야 하는지 알려주세요.
+---
+질문 4: Why do allergies and dry skin get worse in autumn, and how can I manage them?
+답변 4: 가을에 알레르기와 피부가 왜 더 악화되는지 그리고 어떻게 관리하는지 알려주세요.
+---
+질문 5: How should I dress to handle big temperature differences between morning and evening?
+답변 5: 아침과 저녁 사이에 큰 온도 차이를 겪을 때 어떻게 옷을 입으면 좋을까요?
