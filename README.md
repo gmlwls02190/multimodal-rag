@@ -1,3 +1,6 @@
+# 아키텍쳐 다이어그램
+![alt text](multimodal-rag.png)
+
 # 실행 방법
 git clone <저장소 주소>
 cd multimodal-rag
