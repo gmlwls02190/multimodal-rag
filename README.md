@@ -29,17 +29,17 @@ cp .env.example .env                # 윈도우: copy .env.example .env
 # 디렉토리 구조
 ```
 multimodal-rag/
-├── .env.example                # 키 없는 템플릿 (Git 포함)
+├── .env.example
 ├── .gitignore
-├── requirements.txt            # 의존성 목록
-├── requirements.lock.txt       # 버전 고정 파일
-├── README.md                   # 포트폴리오의 얼굴
+├── requirements.txt
+├── requirements.lock.txt
+├── README.md
 ├── notebooks/
-│   └── Multi_modal_RAG.ipynb   # 실습 노트북
+│   └── Multi_modal_RAG.ipynb
 └── src/
-    ├── extract.py              # PDF 파싱 함수
-    ├── summarize.py            # 요약 체인
-    └── retriever.py            # 다중 벡터 검색기
+    ├── extract.py
+    ├── summarize.py
+    └── retriever.py
 ```
 # 토큰 사용량 측정
 텍스트 요약 토큰 사용량 (추정)
