@@ -29,16 +29,11 @@ cp .env.example .env                # 윈도우: copy .env.example .env
 # 디렉토리 구조
 ```
 multimodal-rag/
-├── .venv/                      # 가상환경 (Git 제외)
-├── .env                        # API 키 (Git 제외, 절대 커밋 금지)
 ├── .env.example                # 키 없는 템플릿 (Git 포함)
 ├── .gitignore
 ├── requirements.txt            # 의존성 목록
 ├── requirements.lock.txt       # 버전 고정 파일
 ├── README.md                   # 포트폴리오의 얼굴
-├── data/
-│   ├── invest.pdf              # 원본 PDF
-│   └── figures/                # 추출된 이미지 (Git 제외, 용량 큼)
 ├── notebooks/
 │   └── Multi_modal_RAG.ipynb   # 실습 노트북
 └── src/
